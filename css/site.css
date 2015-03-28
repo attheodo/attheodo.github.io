@@ -1,79 +1,255 @@
-/* Space out content a bit */
 body {
-  padding-top: 20px;
+  padding-top: 90px;
   padding-bottom: 20px;
+  background-color: #F4F4F4;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-/* Custom page header */
 .header {
   padding-bottom: 20px;
-  border-bottom: 1px solid #e5e5e5;
 }
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
+
+.header .links a {
+    color: #CCCCCC;
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    margin-left: 60px;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
 }
+.header .links a:hover {
+    color: #EB3349;
+    background-color: #F4F4F4;
+}
+
+.header .links .active {
+    color: #EB3349;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.hero {
+    padding-top: 70px;
+}
+.hero h1 {
+    font-size: 30px;
+    color: #EB3349;
+    font-weight: 800;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 15px;
+
+}
+.social-icons > li {
+    margin-top: 20px;
+    margin-left: 25px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.social-icons > li:hover {
+    transform: scale(0.9)
+}
+
+.social-icons > li:first-child {
+    margin-left: 0;
+}
+
+.social-icons > li:last-child {
+    margin-right: 0;
+}
+
+
+.hero p {
+    color: #828282;
+    font-size: 18px;
+    font-family: 'Droid Serif', serif;
+}
+
+.btn {
+    background: #EB3349;
+    box-shadow: 0px 3px 0px 0px #C82336;
+    border-radius: 3px;
+    border: 0;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    -webkit-transition: background 0.3s ease;
+    transition: background 0.3s ease;
+}
+
+.hero .btn {
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background: #D9253B;
+    color: #fff;
+}
+
+.services > div {
+    margin-top: 120px;
+}
+
+.services > div > h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    color: #EB3349;
+    margin-top: 15px;
+}
+
+.services > div > p {
+    font-family: 'Droid Serif', serif;
+    font-size: 15px;
+    color: #828282;
+    line-height: 22px;
+}
+
+.tech-lead {
+    margin-top: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.07);
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.tech-lead > div > h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #EB3349;
+    margin-bottom: 5px;
+}
+
+.tech-lead > div > p {
+    font-family: 'Droid Serif', serif;
+    font-size: 15px;
+    color: #949494;
+}
+
+.tech-lead > div > .btn {
+    margin-top: 10px;
+}
+
+.tech-lead .pitch-container {
+    text-align: left;
+}
+.tech-lead .tell-me-more-container {
+    text-align: right;
+}
+
 
 /* Custom page footer */
 .footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
+  margin-top: 120px;
+}
+.footer a {
+    /* ABOUT: */
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    color: #CCCCCC;
+    font-weight: 600;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
 }
 
-/* Customize container */
-@media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-}
-.container-narrow > hr {
-  margin: 30px 0;
+.footer a:hover {
+    color: #EB3349;
+    text-decoration: none;
 }
 
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-.jumbotron .btn {
-  padding: 14px 24px;
-  font-size: 21px;
+.footer .active {
+    color:  #EB3349;
 }
 
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
+.footer  li {
+    margin-left: 60px;
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
+.footer  li:first-child {
+    margin-left: 0;
+}
+
+.footer  li:last-child {
+    margin-right: 0;
+}
+.footer p {
+    margin-top: 30px;
+    font-family: 'Droid Serif', serif;
+    font-size: 13px;
+    color: #DBDBDB;
+    line-height: 21px;
+}
+
+.footer .license {
+    margin-top: 50px;
+    font-family: 'Droid Serif', serif;
+    color: #DBDBDB;
+    font-size: 10px;
+}
+.footer .license img {
+    margin-bottom: 10px;
+}
+.footer .license a {
+    font-family: 'Droid Serif', serif;
+    font-size: 10px;
+}
+
+@media (max-width: 768px) {
+
+    body {
+      padding-top: 50px;
+      padding-bottom: 20px;
+      background-color: #F4F4F4;
+    }
+
+    .hero {
+        padding-top: 0px;
+    }
+
+    .header {
+        text-align: right;
+    }
+    .social-icons > li {
+        margin-top: 20px;
+        margin-left: 10px;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+
+    .services > div {
+        margin-top: 60px;
+    }
+
+    .tech-lead {
+        margin-top: 60px;
+
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+    }
+
+
+    .tech-lead .pitch-container {
+        text-align: center;
+    }
+    .tech-lead .tell-me-more-container {
+        text-align: center;
+    }
+
+    .tech-lead > div > .btn {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .footer {
+      margin-top: 80px;
+    }
+
 }
