@@ -1,0 +1,10 @@
+name: "Thanos Theodoridis Personal Website"
+description: ""
+
+url: http://localhost:8080
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+highligther: pygments
