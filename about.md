@@ -3,7 +3,7 @@ layout: about
 permalink: /about/
 ---
 
-Hey there, stranger. I am Athanasios “Thanos” Theodoridis and I live in the quiet and beautiful city of [Thessaloniki, Greece](http://en.wikipedia.org/wiki/Thessaloniki).
+Hey there! I am Athanasios “Thanos” Theodoridis and I live in the quiet and beautiful city of [Thessaloniki, Greece](http://en.wikipedia.org/wiki/Thessaloniki).
 
 I have an Electrical and Computer Engineering degree from [University of Thessaly](http://www.inf.uth.gr/?lang=en) and a masters on Engineering Management from [International Hellenic University](http://www.econ.ihu.edu.gr/). I am also a proud alumni of [Anatolia College High School](http://www.anatolia.edu.gr/cms.jsp).
 
