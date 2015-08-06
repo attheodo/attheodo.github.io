@@ -304,22 +304,28 @@ body {
 .blog-posts a {
     color: #EB3349;
 }
+
+.back-to-posts-link {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.back-to-posts-link a {
+    color: #EB3349;
+}
 .post {
     margin-bottom: 25px;
     padding-bottom: 25px;
     border-bottom: 1px solid #E0E0E0;
 }
-.post h2 {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
+
+.post .title {
     color: #EB3349;
-    line-height: 31px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
 }
 
-.post h3 {
+.post-timestamp {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -328,13 +334,45 @@ body {
     margin-top: 0px;
     margin-bottom: 15px;
 }
+
+.post h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 31px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.post h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+    line-height: 25px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
 .post p {
     font-family: 'Droid Serif', serif;
     font-size: 16px;
     color: #A2A2A2;
     line-height: 27px;
+    margin-bottom: 15px;
 }
 
+.post code {
+    color: #333333;
+    background-color: rgb(228, 228, 228);
+}
+
+.post pre {
+    background-color: white;
+}
+.post pre > code {
+    background-color: white;
+}
 .more-posts {
     text-align: right;
     font-size: 15px;
