@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+
+<div class="bg-image blog-image"></div>
+
+<div class="container">
+
+  <div class="back-to-posts-link">
+    <a href="/blog/">← Back to posts</a>
+  </div>
+
+  <div class="container post">
+    <div class="row hello">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="title">
+          {{ page.title }}
+        </div>
+        <div class="post-timestamp">
+          <time datetime="{{page.date|date: \"%F\"}}">{{page.date|date:"%b %d, %Y"}}</time>
+        </div>
+
+        {{ content }}
+
+      </div>
+    </div>
+  </div>
+</div>
