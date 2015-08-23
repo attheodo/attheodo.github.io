@@ -4,6 +4,11 @@ body {
   background-color: #F4F4F4;
 }
 
+ol, ul {
+    color: #A2A2A2;
+    padding: 20px;
+}
+
 .header {
   padding-bottom: 20px;
 }
@@ -301,8 +306,11 @@ body {
     margin-top: 90px;
 }
 
-.blog-posts a {
+.blog-posts .post-title {
     color: #EB3349;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
 }
 
 .back-to-posts-link {
@@ -328,9 +336,13 @@ body {
     font-weight: 700;
 }
 
+.post-timestamp {
+    margin-bottom: 40px;
+}
+
 .post-timestamp time {
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 200 !important;
+    font-weight: normal;
     font-size: 18px;
     color: #CCCCCC;
     line-height: 25px;
@@ -338,24 +350,25 @@ body {
     margin-bottom: 15px;
 }
 
+.post h1,h2,h3,h4,h5,h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333333;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
 .post h2 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 22px;
     font-weight: 700;
-    color: #333333;
     line-height: 31px;
-    margin-top: 0px;
-    margin-bottom: 10px;
 }
 
 .post h3 {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    color: #333333;
     line-height: 25px;
-    margin-top: 0px;
-    margin-bottom: 10px;
 }
 .post p {
     font-family: 'Droid Serif', serif;
