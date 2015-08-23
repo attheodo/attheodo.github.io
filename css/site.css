@@ -318,6 +318,9 @@ body {
     border-bottom: 1px solid #E0E0E0;
 }
 
+.post a {
+    color: #EB3349;
+}
 .post .title {
     color: #EB3349;
     font-family: 'Source Sans Pro', sans-serif;
@@ -325,9 +328,9 @@ body {
     font-weight: 700;
 }
 
-.post-timestamp {
+.post-timestamp time {
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
+    font-weight: 200 !important;
     font-size: 18px;
     color: #CCCCCC;
     line-height: 25px;
