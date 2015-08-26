@@ -1,3 +1,5 @@
+---
+---
 body {
   padding-top: 90px;
   padding-bottom: 20px;
@@ -9,6 +11,9 @@ ol, ul {
     padding: 20px;
 }
 
+hr {
+    border-top: 1px solid #e0e0e0;
+}
 .header {
   padding-bottom: 20px;
 }
@@ -69,7 +74,9 @@ ol, ul {
 .hero p {
     color: #828282;
     font-size: 18px;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    line-height: 1.7;
 }
 
 .btn, .btn:focus {
@@ -106,10 +113,11 @@ ol, ul {
 }
 
 .services > div > p {
-    font-family: 'Droid Serif', serif;
-    font-size: 15px;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
     color: #828282;
-    line-height: 22px;
+    line-height: 1.7;
+    font-weight: 300;
 }
 
 .tech-lead {
@@ -132,8 +140,9 @@ ol, ul {
 }
 
 .tech-lead > div > p {
-    font-family: 'Droid Serif', serif;
-    font-size: 15px;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    font-weight: 300;
     color: #949494;
 }
 
@@ -183,7 +192,7 @@ ol, ul {
 }
 .footer p {
     margin-top: 30px;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Merriweather', serif;
     font-size: 13px;
     color: #DBDBDB;
     line-height: 21px;
@@ -191,7 +200,7 @@ ol, ul {
 
 .footer .license {
     margin-top: 50px;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Merriweather', serif;
     color: #DBDBDB;
     font-size: 10px;
 }
@@ -199,7 +208,7 @@ ol, ul {
     margin-bottom: 10px;
 }
 .footer .license a {
-    font-family: 'Droid Serif', serif;
+    font-family: 'Merriweather', serif;
     font-size: 10px;
 }
 
@@ -276,6 +285,7 @@ ol, ul {
     background-image:url('/images/blog.jpg');
 }
 
+
 .about {
     padding-top: 70px;
 }
@@ -294,7 +304,8 @@ ol, ul {
 .about p {
     color: #828282;
     font-size: 16px;
-    font-family: 'Droid Serif', serif;
+    font-weight: 300;
+    font-family: 'Merriweather', serif;
     text-align: justify;
     line-height: 27px;
     margin-bottom: 20px;
@@ -305,6 +316,10 @@ ol, ul {
 
 .blog-posts {
     margin-top: 90px;
+}
+
+.blog-posts .post h1 {
+    margin-bottom: 0px;
 }
 
 .blog-posts .post-title {
@@ -333,7 +348,7 @@ ol, ul {
 .post .title {
     color: #EB3349;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 28px;
+    font-size: 36px;
     font-weight: 700;
 }
 
@@ -358,35 +373,40 @@ ol, ul {
 }
 
 .post h2 {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 31px;
 }
 
 .post h3 {
     font-weight: bold;
-    font-size: 20px;
-    line-height: 25px;
-    /*margin-bottom: 20px;
-    margin-top: 40px;*/
+    font-size: 26px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+
 }
 
 .post h4 {
-    font-weight: bold;
-    /*margin-bottom: 5px;*/
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(0,0,0,0.65);
+
 }
 .post h5 {
+    font-family: 'Merriweather', serif;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 18px;
+    color: rgba(0,0,0,0.65);
     /*margin-top: 25px;
     margin-bottom: 5px;*/
 }
 .post p {
-    font-family: 'Droid Serif', serif;
-    font-size: 16px;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    font-weight: 300;
     color: #828282;
-    line-height: 27px;
-    margin-bottom: 20px;
+    line-height: 1.8;
+    margin-bottom: 30px;
 }
 
 .post code {
@@ -395,13 +415,15 @@ ol, ul {
 }
 .post ol, ul {
     color: #828282;
-    font-family: 'Droid Serif', serif;
-    font-size: 16px;
-    padding-left: 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.8;
+    padding-left: 40px;
     padding-right: 20px;
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .post pre {
     background-color: white;
