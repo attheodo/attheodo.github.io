@@ -22,7 +22,11 @@ active: blog
           <time datetime="{{page.date|date: \"%F\"}}">{{page.date|date:"%b %d, %Y"}}</time>
         </div>
 
+        {% include share.html %}
+
         {{ content }}
+
+        {% include share.html %}
 
       </div>
     </div>
