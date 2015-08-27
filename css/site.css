@@ -436,3 +436,33 @@ hr {
     font-size: 15px;
     font-family: 'Source Sans Pro', sans-serif;
 }
+.share-page {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #EAEAEA;
+    color: #333333;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.share-page .twitter {
+    color: #55acee;
+}
+
+.share-page .facebook {
+    color: #3b5998;
+}
+
+.share-page .google {
+    color: #dd4b39;
+}
+
+.share-page .linkedin {
+    color: #0077b5;
+}
+
+.social-link {
+    margin-left: 15px;
+}
