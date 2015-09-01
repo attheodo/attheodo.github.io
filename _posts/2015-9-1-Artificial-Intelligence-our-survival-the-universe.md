@@ -2,6 +2,7 @@
 layout: post
 post_image: artificial.png
 title: Artifical Intelligence, Our Survival and What the Fuck the Whole Universe Might Just Be
+facebook_image: ex-machina.jpg
 ---
 Just finished a remarkably good read: ["Influence. The Psychology of Persuasion"](http://www.amazon.co.uk/dp/006124189X) by Robert Cialdini.
 Albeit the book revolves around the certain "weapons of influence" that are most often utilized to bend our will towards certain favorable behaviors, the
