@@ -8,16 +8,13 @@
   <meta name="author" content="Thanos Theodoridis">
 
   <!-- FB -->
-  <meta property="og:title"
-        content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
-  <meta property="og:site_name" content="{{ site.title }}"/>
-  <meta property="og:url"
-        content="{{ site.url }}{{ page.url }}"/>
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
   <meta property="og:image" content="{{ site.url }}/images/posts/{{ page.facebook_image }}"/>
-  <meta property="og:description"
-        content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.description }}{% endif %}">
+  <meta property="og:site_name" content="Thanos Theodoridis - Senior Technology Consultant"/>
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ page.description }}{% endif %}"/>
   <meta property="article:author" content="Thanos Theodoridis" />
-  <meta property="article:publisher" content="http://attheo.do" />
   <!-- FB -->
 
   <!-- TW -->
