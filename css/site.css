@@ -425,6 +425,15 @@ hr {
     padding-bottom: 0px;
     margin-bottom: 30px;
 }
+
+.post img {
+    width: 100%;
+}
+
+.post .giphy-embed {
+    width:100%;
+    margin-bottom: 30px;
+}
 .post pre {
     background-color: white;
 }
