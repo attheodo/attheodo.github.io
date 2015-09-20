@@ -2,6 +2,7 @@
 layout: post
 post_image: staleOil.jpg
 title: Your Old, Stale Oil Needs Changing Because Graduation Is Not the End but the Beginning
+facebook_image: staleOil_1.jpg
 ---
 Your car dealer just handed you the keys to your new car. Right before he waves you goodbye he reminds you once again: "Every 5.000Km remember to come by and have your engine oil changed". Disregard that crucial piece of advice and your engine wears well before its advertised useful life. Timely oil changes ensure a smooth, efficient ride; dirty oil makes your car's engine rough. And rough rides always stall at the worst time.
 
