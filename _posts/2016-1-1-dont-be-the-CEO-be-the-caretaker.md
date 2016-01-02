@@ -9,7 +9,7 @@ I used to walk to my high-school every day during spring time. I was very lucky 
 
 Joe was living in a tiny little house by the school's gate. Every morning he'd be the first to open the gate for everyone to enter the school and every night he'd be the last one to lock it. Practically he was the first person in the school in the morning and the last out in the evening.
 
-Due to his position's responsibilities, Joe was coming face to face with every stakeholder of the school each day. He would meet the teachers, the employees. He would meet the students, the clients. He would meed technical personnel, the suppliers. He was kind enough to have a small chit-chat with everyone across the value chain.
+Due to his position's responsibilities, Joe was coming face to face with every stakeholder of the school each day. He would meet the teachers, the employees. He would meet the students, the clients. He would meet with technical personnel, the suppliers. He was kind enough to have a small chit-chat with everyone across the value chain.
 
 Joe was a middle-aged man with a big-ass smile. He probably had lots of troublings of his own but nonetheless he had this warm, welcoming smile. Joe was very approachable and every time you walked passed him he would give you the impression that he runs things around the school.
 
