@@ -5,7 +5,7 @@ title: Don't be the CEO, be the Caretaker
 facebook_image: janitor.jpg
 ---
 
-I used to walk to the my high-school every day during spring time. I was very lucky to be in walking distance of my daily go-to obligation. And I very profoundly remember my high-school caretaker. Let's call him Joe. Some might call him the doorkeeper, or the janitor. For me, the most appropriate title is Joe, the "caretaker". I will explain why.
+I used to walk to my high-school every day during spring time. I was very lucky to be in walking distance of my daily go-to obligation. And I very profoundly remember my high-school caretaker. Let's call him Joe. Some might call him the doorkeeper, or the janitor. For me, the most appropriate title is Joe, the "caretaker". I will explain why.
 
 Joe was living in a tiny little house by the school's gate. Every morning he'd be the first to open the gate for everyone to enter the school and every night he'd be the last one to lock it. Practically he was the first person in the school in the morning and the last out in the evening.
 
