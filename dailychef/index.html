@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily Chef</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/img/icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/app.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=greek,latin' rel='stylesheet' type='text/css'>
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/img/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png">
+    <link rel="manifest" href="/img/icons/manifest.json">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#dailychef-navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <img src="img/logo@2x.png" alt="Daily Chef" width="156" height="50">
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="dailychef-navbar">
+            <ul class="nav navbar-nav navbar-nav-top navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#how_it_works_modal">Πώς λειτουργεί</a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#about_us_modal">Η ομάδα μας</a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#account_modal">Περιοχή κάλυψης</a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#login_modal">Σύνδεση</a>
+                </li>
+                <li>
+                    <a href="#" class="btn btn-dc" data-toggle="modal" data-target="#register_modal">Εγγραφή</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="dc-affix clearfix">
+        <ul class="list-inline pull-left">
+            <li>Θεσσαλονίκη</li>
+            <li>Ανοιχτά (13:00 - 16:00)</li>
+            <li>Παράδοση σε λίγα λεπτά</li>
+        </ul>
+        <ul class="list-inline pull-right">
+            <li>
+                
+                    <a href="order.html">Παραγγελία <span class="arrow"></span></a>
+
+                
+                
+            </li>
+        </ul>
+    </div>
+
+<div class="container products">
+    <div class="row">
+        <div class="col-sm-6 product">
+            <div class="inner">
+                <div class="img-container">
+                    <img class="img-responsive" src="img/product-1.jpg" alt="product 1">
+                    <span class="price">5.50€</span>
+                </div>
+                <div class="details">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-8 col-sm-6 col-xs-6">
+                            <h2>Μοσχαρίσια σπαλομπριζόλα</h2>
+                            <span class="calories">~ 800 Θερμίδες</span>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                            <button class="quantity-btn quantity-subtract">-</button>
+                            <span class="quantity">0</span>
+                            <button class="quantity-btn quantity-add pulse">+</button>
+                        </div>
+                    </div>
+                    <p class="description">Μοσχαρίσια σπαλομπριζόλα ψημένη στη σχάρα, υπερτούμπανη, φρέσκο πράγμα έχω λεώ. Έλα πάρε παρεεεε.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 product">
+            <div class="inner">
+                <div class="img-container">
+                    <img class="img-responsive" src="img/product-2.jpg" alt="product 2">
+                    <span class="price">5.00€</span>
+                </div>
+                <div class="details">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-8 col-sm-6 col-xs-6">
+                            <h2>Γαριδομακαρονάδα με τραγανό μπέικον</h2>
+                            <span class="calories">~ 930 Θερμίδες</span>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                            <button class="quantity-btn quantity-subtract">-</button>
+                            <span class="quantity">0</span>
+                            <button class="quantity-btn quantity-add pulse">+</button>
+                        </div>
+                    </div>
+                    <p class="description">Υπερενισχυμένη μπαμπακομακαρονάδα με θαλασσινά και αυγά πεσκανδρίτσας, ζαβλακωμένη με μυρωδικά.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 product">
+            <div class="inner">
+                <div class="img-container">
+                    <img class="img-responsive" src="img/product-3.jpg" alt="product 3">
+                    <span class="price">3.50€</span>
+                </div>
+                <div class="details">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-8 col-sm-6 col-xs-6">
+                            <h2>Σαλάτα Ceasar's </h2>
+                            <span class="calories">~ 100 Θερμίδες</span>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                            <button class="quantity-btn quantity-subtract">-</button>
+                            <span class="quantity">0</span>
+                            <button class="quantity-btn quantity-add pulse">+</button>
+                        </div>
+                    </div>
+                    <p class="description">Σαλατούλα με τρυφερό μαρουλάκι, κρουτόν και τηγανητό πετεινάρι ελευθέρας βοσκής.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 product">
+            <div class="inner">
+                <div class="img-container">
+                    <img class="img-responsive" src="img/product-4.jpg" alt="product 4">
+                    <span class="price">1.50€</span>
+                </div>
+                <div class="details">
+                    <div class="row">
+                        <div class="col-lg-9 col-md-8 col-sm-6 col-xs-6">
+                            <h2>Ψωμάκι</h2>
+                            <span class="calories">~ 100 Θερμίδες</span>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
+                            <button class="quantity-btn quantity-subtract">-</button>
+                            <span class="quantity">0</span>
+                            <button class="quantity-btn quantity-add pulse">+</button>
+                        </div>
+                    </div>
+                    <p class="description">Φρεσκοψημένο ψωμάκι ημέρας, με αλεύρι ζέας.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="how_it_works_modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content how-it-works">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4>Πώς λειτουργεί το Daily Chef</h4>
+                <img class="img-responsive" src="img/ornament@2x.png" width="394" height="24">
+            </div>
+            <div class="modal-body">
+                <p>Σε τρία απλά βήματα απολαμβάνεις το φαγητό που ετοίμασε ο Chef μας για εσένα:</p>
+                <ul class="list-unstyled">
+                    <li class="clearfix">
+                        <span class="step">1</span>
+                        <p>Επίλεξε τα αγαπημένα σου πιάτα από τις ολόφρεσκες επιλογές της ημέρας.</p>
+                    </li>
+                    <li class="clearfix">
+                        <span class="step">2</span>
+                        <p>Kάνε την παραγγελία σου με τρία απλά clicks</p>
+                    </li>
+                    <li class="clearfix">
+                        <span class="step">3</span>
+                        <p>Παρέλαβε εκεί που βρίσκεσαι μέσα σε λίγα λεπτά.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-dc btn-lg" data-dismiss="modal">Έτοιμος να παραγγείλω!</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="about_us_modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content about-us">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4>Σχετικά με εμάς</h4>
+                <img class="img-responsive" src="img/ornament@2x.png" width="394" height="24">
+            </div>
+            <div class="modal-body">
+                <h5>
+                    <span class="text">"</span>Απολαυστικό γεύμα σε ελάχιστο χρόνο.<span class="text">"</span>
+                </h5>
+                <p>Η κουζίνα μας στελεχώνεται από έμπειρους Έλληνες chef με διεθνή εμπειρία πάνω στη μεσογειακή γαστρονομία. Την ομάδα συμπληρώνουν οι πιο ευγενικοί και γρήγοροι διανομείς της πόλης, μαζί με τους πιο αποτελεσματικούς προγραμματιστές.</p>
+                <p>Το μενού μας σχεδιάστηκε από τους Chef μας σε συνεργασία με την διατροφολόγο <a href="#" target="_blank">Νίκη Αθανασιάδου</a>, παρέχοντας σας μια ολοκληρωμένη και πλούσια μεσογειακή διατροφή. Χρησιμοποιούμε εγχώριες πρώτες ύλες και αγνά υλικά συνδυάζοντας τη μοντέρνα Ελληνική κουζίνα με τις παραδοσιακές γεύσεις που όλοι αγαπάμε.</p>
+                <p>Σεβόμενοι τον χρόνο σας απλουστεύσαμε τη διαδικασία της παραγγελίας για να μπορούμε να είμαστε στη πόρτα σας σε ελάχιστα λεπτά.</p>
+                <p class="regards">Με εκτίμηση,</p>
+                <img class="img-responsive" src="img/logo@2x.png" width="100" height="32">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-dc btn-lg" data-dismiss="modal">Έτοιμος να παραγγείλω!</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="register_modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content register">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4>Εγγραφή στο Daily Chef</h4>
+                <img class="img-responsive" src="img/ornament@2x.png" width="394" height="24">
+            </div>
+            <div class="modal-body row">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label for="first_name">Όνομα*</label>
+                        <input type="text" class="form-control dc-input-lg" id="first_name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last_name">Επίθετο*</label>
+                        <input type="text" class="form-control dc-input-lg" id="last_name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="error">Εmail*</label>
+                        <input type="text" class="form-control dc-input-lg error" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Κωδικός Πρόσβασης*</label>
+                        <input type="password" class="form-control dc-input-lg" id="password">
+                    </div>
+                    <div class="form-group">
+                        <label for="mobile">Κινητό Τηλέφωνο*</label>
+                        <p class="note">Σε περίπτωση που χρειαστει να επικοινωνήσει μαζί σας ο διανομέας</p>
+                        <input type="text" class="form-control dc-input-lg" id="mobile">
+                    </div>
+                    <div class="alert alert-danger" role="alert">To e-mail που συμπληρώσατε δεν είναι έγκυρο!</div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-dc btn-lg" data-dismiss="modal">Δημιουργία Λογαριασμού</button>
+                <p>
+                    <a href="#">Όροι Χρήσης και Πολιτική Απορρήτου</a>
+                <p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="login_modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content login">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4>Σύνδεση στο Daily Chef</h4>
+                <img class="img-responsive" src="img/ornament@2x.png" width="394" height="24">
+            </div>
+            <div class="modal-body row">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control dc-input-lg" id="email">
+                    </div>
+                    <div class="form-group clearfix">
+                        <label for="password">Κωδικός Πρόσβασης</label>
+                        <input type="password" class="form-control dc-input-lg" id="password">
+                        <div class="checkbox remember-me pull-left">
+                            <label>
+                                <input type="checkbox"> Να με θυμάσαι
+                            </label>
+                        </div>
+                        <div class="forgot-password pull-right">
+                            <a href="#">Ξέχασα τον κωδικό μου</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-dc btn-lg" data-dismiss="modal">Σύνδεση</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="account_modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content account">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4>Ο λογαριασμός σου</h4>
+                <img class="img-responsive" src="img/ornament@2x.png" width="394" height="24">
+            </div>
+            <div class="modal-body row">
+                <div class="col-sm-12">
+                    <div>
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#account" aria-controls="account" role="tab" data-toggle="tab">Στοιχεία</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#address" aria-controls="address" role="tab" data-toggle="tab">Διευθύνσεις</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="account">
+                                <div class="form-group">
+                                    <label for="first_name">Όνομα</label>
+                                    <input type="text" class="form-control dc-input-lg" id="first_name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="last_name">Επίθετο</label>
+                                    <input type="text" class="form-control dc-input-lg" id="last_name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="mobile">Κινητό Τηλέφωνο</label>
+                                    <p class="note">Σε περίπτωση που χρειαστει να επικοινωνήσει μαζί σας ο διανομέας</p>
+                                    <input type="text" class="form-control dc-input-lg" id="mobile">
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Κωδικός Πρόσβασης</label>
+                                    <input type="password" class="form-control dc-input-lg" id="password">
+                                </div>
+                                <div class="form-group">
+                                    <label for="retype_password">Επιβεβαίωση Κωδικού Πρόσβασης*</label>
+                                    <input type="password" class="form-control dc-input-lg" id="retype_password">
+                                </div>
+                                <button type="button" class="btn btn-dc btn-lg" data-dismiss="modal">Αποθήκευση Λογαριασμού</button>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="address">
+                                <a class="toggle" role="button" data-toggle="collapse" data-parent="#address" href="#address1">Τσιμισκή 12 <span class="caret inversed"></span></a>
+                                <div id="address1" class="panel-collapse collapse in">
+                                    <div class="form-group-container-md clearfix">
+    <div class="form-group">
+        <label for="account_address_1">Οδός</label>
+        <input type="text" class="form-control dc-input-md" id="account_address_1" value="Τσιμισκή 12">
+    </div>
+    <div class="form-group">
+        <label for="account_address_2">Αριθμός</label>
+        <input type="text" class="form-control dc-input-xxs" id="account_address_2">
+    </div>
+</div>
+<div class="form-group-container-md clearfix">
+    <div class="form-group">
+        <label for="account_address_3">Περιοχή</label>
+        <input type="text" class="form-control dc-input-md" id="account_address_3">
+    </div>
+    <div class="form-group">
+        <label for="account_address_4">ΤΚ</label>
+        <input type="text" class="form-control dc-input-xxs" id="account_address_4">
+    </div>
+</div>
+<div class="form-group-container-sm clearfix">
+    <div class="form-group">
+        <label for="account_address_6">Όνομα στο κουδούνι</label>
+        <input type="text" class="form-control dc-input-sm" id="account_address_6">
+    </div>
+    <div class="form-group">
+        <label for="account_address_6">Όροφος</label>
+        <select class="form-control dc-input-xs" id="account_address_6">
+            <option value="0">Ισόγειο</option>
+        </select>
+    </div>
+</div>
+
+                                </div>
+                                <a class="toggle" role="button" data-toggle="collapse" data-parent="#address" href="#address2">Χλόης 9 <span class="caret"></span></a>
+                                <div id="address2" class="panel-collapse collapse">
+                                    <div class="form-group-container-md clearfix">
+    <div class="form-group">
+        <label for="account_address_1">Οδός</label>
+        <input type="text" class="form-control dc-input-md" id="account_address_1" value="Χλόης 9">
+    </div>
+    <div class="form-group">
+        <label for="account_address_2">Αριθμός</label>
+        <input type="text" class="form-control dc-input-xxs" id="account_address_2">
+    </div>
+</div>
+<div class="form-group-container-md clearfix">
+    <div class="form-group">
+        <label for="account_address_3">Περιοχή</label>
+        <input type="text" class="form-control dc-input-md" id="account_address_3">
+    </div>
+    <div class="form-group">
+        <label for="account_address_4">ΤΚ</label>
+        <input type="text" class="form-control dc-input-xxs" id="account_address_4">
+    </div>
+</div>
+<div class="form-group-container-sm clearfix">
+    <div class="form-group">
+        <label for="account_address_6">Όνομα στο κουδούνι</label>
+        <input type="text" class="form-control dc-input-sm" id="account_address_6">
+    </div>
+    <div class="form-group">
+        <label for="account_address_6">Όροφος</label>
+        <select class="form-control dc-input-xs" id="account_address_6">
+            <option value="0">Ισόγειο</option>
+        </select>
+    </div>
+</div>
+
+                                </div>
+                                <div class="clearfix address-add">
+                                    <a href="#">Προσθήκη νέας διεύθυνσης</a>
+                                    <button type="button" class="btn btn-dc btn-lg pull-right" data-dismiss="modal">Αποθήκευση</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+
+<div class="container footer">
+    <div class="row">
+        <div class="col-sm-12">
+            <a href="/">
+                <img class="logo" src="img/logo@2x.png" alt="Daily Chef" width="156" height="50">
+            </a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <ul class="list-inline menu">
+                <li>
+                    <a href="#">Επικοινωνία</a>
+                </li>
+                <li>
+                    <a href="#">Όροι Χρήσης</a>
+                </li>
+                <li>
+                    <a href="#">Επόμενο Μενού</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <p>
+                Design by <a href="https://twitter.com/attheodo" rel="nofollow" target="_blank">@attheodo</a>
+            </p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
+
