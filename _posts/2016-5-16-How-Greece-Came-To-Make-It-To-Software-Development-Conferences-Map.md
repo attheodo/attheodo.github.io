@@ -5,11 +5,9 @@ title: How Greece Has Come To Finally Make It To The Software Development Confer
 facebook_image: devit1.jpg
 ---
 
-# How Greece Has Come To Finally Make It To The Software Development Conferences Map
-
 My buddy [Patroklos Papapetrou](@softwaregarden) couldn't cut it to the chase any better; [Greece has finally made it to the software development conferences map.](https://www.linkedin.com/pulse/greece-made-finally-software-development-conferences-patroklos)
 
-#### In the next months, at least six big conferences are about to take place in various big cities of Greece. And how we came to this is not an event but rather a process.
+In the next months, at least six big conferences are about to take place in various big cities of Greece. And how we came to this is not an event but rather a process.
 
 First of all it appears we've reached the critical mass of professionals with interest in such kind of events. I know there have been conferences and symposiums for years before but these were mostly positioned towards academics. The past few years we've been seeing more and more conferences with talks on subjects born out of the everyday struggle in the industry. And more and more people seeing value in them. It appears the professional software developers "guild" is coming strong in a period of severe economic turbulence in the country. Great news for both professionals and companies seeking to absorb them.
 
@@ -28,8 +26,9 @@ Finally, and frankly quite interestingly, we have the local businesses. Organiza
 So, in terms of how I see it, that's the process that got us here. Excitingly, the process is marking milestones in the roadmap done.
 
 #### It is still happening. It's going forward. We are going forward.
-
+<br>
 As a bonus, here are X reasons to attend at least one of the conferences taking place in Greece:
+
 - **It's affordable**
     - At around 60€-80€ we get a full day of great presentations, lots of coffee, swag and free meal!
 - **The atmosphere is relaxed**
