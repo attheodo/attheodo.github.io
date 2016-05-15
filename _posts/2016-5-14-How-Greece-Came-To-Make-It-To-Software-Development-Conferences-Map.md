@@ -5,7 +5,7 @@ title: How Greece Has Come To Finally Make It To The Software Development Confer
 facebook_image: devit1.jpg
 ---
 
-My buddy [Patroklos Papapetrou](@softwaregarden) couldn't cut it to the chase any better; [Greece has finally made it to the software development conferences map.](https://www.linkedin.com/pulse/greece-made-finally-software-development-conferences-patroklos)
+My buddy [Patroklos Papapetrou](http://twitter.com/@softwaregarden) couldn't cut it to the chase any better; [Greece has finally made it to the software development conferences map.](https://www.linkedin.com/pulse/greece-made-finally-software-development-conferences-patroklos)
 
 In the next months, at least six big conferences are about to take place in various big cities of Greece. And how we came to this is not an event but rather a process.
 
