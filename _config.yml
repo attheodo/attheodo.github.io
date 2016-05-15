@@ -5,6 +5,6 @@ url: http://www.attheo.do
 
 paginate: 10
 
-markdown: rdiscount
+markdown: kramdown
 permalink: pretty
 highligther: pygments
