@@ -1,6 +1,7 @@
 ---
 layout: about
 permalink: /about/
+quote: Always do your best. What you plant now, you will harvest later.
 ---
 
 Hey there! I am Athanasios “Thanos” Theodoridis and I live in the quiet and beautiful city of [Thessaloniki, Greece](http://en.wikipedia.org/wiki/Thessaloniki).
