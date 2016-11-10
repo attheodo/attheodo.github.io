@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /about/
-description: Hello. My name is Thanos.Senior iOS Developer. UX/UI Designer. Generalist, full-stack, real deal. On a mission to bring your mobile and web strategy into life.
+description: description: Hello. My name is Thanos. Senior iOS Developer. UX/UI Designer. Generalist, full-stack, real deal. On a mission to bring your mobile and web strategy into life.
 quote: Always do your best. What you plant now, you will harvest later.
 ---
 
