@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: 'en' }}">
 
 {% include head.html %}
 
-<body>
+  <body class="page-{{ page.layout | default: 'default' }} bg-snow-50 max-w-2xl mx-auto font-menlo">
+    {% include header.html %}
 
-{% include header.html %}
+    <main id="main-content" role="main">
+      {{ content }}
+    </main>
 
-{{ content }}
+    {% include footer.html %}
 
-{% include footer.html %}
-
-</body>
+  </body>
 </html>
