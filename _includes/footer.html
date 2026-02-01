@@ -1,34 +1,13 @@
-<footer class="footer text-center container">
-  <ul class="list-inline">
-    {% if page.active == "home" %}
-           <li><a class="active" href="#">HOME</a></li>
-       {% else %}
-           <li><a href="/">HOME</a></li>
-       {% endif %}
-       {% if page.active == "about" %}
-           <li><a class="active" href="/about/">ABOUT</a></li>
-       {% else %}
-           <li><a href="/about/">ABOUT</a></li>
-       {% endif %}
-       {% if page.active == "blog" %}
-           <li><a class="active" href="/blog/">BLOG</a></li>
-       {% else %}
-           <li><a href="/blog/">BLOG</a></li>
-       {% endif %}
-  </ul>
-  <div class="row">
-    <div class="col-md-4 col-md-offset-4">
-      <p>“{% if page.quote %}{{ page.quote }}{% else %}{{ site.quote }}{% endif %}”</p>
-    </div>
-  </div>
-  <div class="license row">
-    <div class="col-md-4 col-md-offset-4">
-      <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
-        <img alt="Creative Commons License" style="border-width:0"
-             src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"/></a><br/>
-      This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative
-      Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.<br><br>
-      <a href="http://try.hrv.st/1-008818?b" title="Painless time tracking"><img src="https://www.getharvest.com/images/referrals/harvest_banner_130x60.png" height="60" width="130" border="0" alt="Harvest time tracking" /></a>
-    </div>
-  </div>
+<footer class="flex flex-col gap-4 items-center pt-20 pb-4 text-center">
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+    <img
+      alt="Creative Commons License"
+      src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"
+    />
+  </a>
+  <p class="text-xs text-gray-300">This work is licensed under a
+  <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" class="link"
+    >CC BY-NC-ND 4.0
+    License
+  </a></p>
 </footer>

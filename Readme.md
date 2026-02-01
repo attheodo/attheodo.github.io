@@ -1,12 +1,36 @@
-## Installation
+# attheo.do
 
-This website is build with Jekyll.
+Personal website built with Jekyll and hosted on GitHub Pages.
 
-### Install Jekyll
-`gem install jekyll`
+## Project structure
+- `assets/` static assets (CSS, images)
+- `src/styles/` Tailwind source files
+- `_includes/`, `_layouts/`, `_posts/` Jekyll content
 
-### Build site
-`$ jekyll build`
+## Local setup
+### Jekyll
+```bash
+gem install jekyll
+```
 
-### Serve site locally
-`$ jekyll serve`
+### Tailwind CSS
+```bash
+npm install
+```
+
+Build CSS once:
+```bash
+npm run build:css
+```
+
+Watch CSS during development:
+```bash
+npm run dev:css
+```
+
+### Serve the site
+```bash
+jekyll serve
+```
+
+Open `http://localhost:4000`.

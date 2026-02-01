@@ -1,35 +1,26 @@
 ---
 layout: default
-title: Blog - Thanos Theodoridis - Senior Technology Consultant
-description: Various thoughts on various matters. Opinions solely my own.
-active: blog
-quote: The things that we love tell us what we are.
 ---
 
+<h1 class="flex gap-2 text-2xl font-extrabold text-gray-500">
+  <span class="text-brand-500">#</span><span>Writing</span>
+</h1>
 
-<div class="bg-image blog-image"></div>
-
-<div class="container">
-
-  <div class="container blog-posts">
-    <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-
-        {% for post in site.posts limit: 5 %}
-        <div class="post">
-          <h1><a href="{{ post.url }}" class="post-title">{{ post.title }}</a></h1>
-
-          <div class="post-timestamp">
-            <time>{{ post.date | date: "%B %d %Y" }}</time>
-          </div>
-          {{ post.content | truncatewords: 40 }}
-
-        </div>
-        {% endfor %}
-
-      </div>
+{% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date:
+'%Y'" %} {% for year in posts_by_year %}
+<section>
+  <h2 class="text-gray-400 text-lg underline underline-offset-4 font-medium py-4">
+    {{ year.name }}
+  </h2>
+  <div class="space-y-2">
+    {% for post in year.items %}
+    <div class="flex gap-2 items-start">
+      <time class="shrink-0 text-gray-300 text-sm"
+        >{{ post.date | date: "%b·%d" }}</time
+      >
+      <a href="{{ post.url }}" class="blog-link">{{ post.title }}</a>
     </div>
+    {% endfor %}
   </div>
-
-
-</div>
+</section>
+{% endfor %}

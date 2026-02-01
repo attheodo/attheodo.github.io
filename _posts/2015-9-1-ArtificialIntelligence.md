@@ -1,6 +1,5 @@
 ---
 layout: post
-post_image: artificial.png
 title: Artifical Intelligence, Our Survival and What the Fuck the Whole Universe Might Just Be
 facebook_image: ex-machina.jpg
 ---
@@ -16,7 +15,7 @@ Think about this for a while. As far as a Grizzly bear is concerned, the world h
 
 Now try to think for a while how things have changed for humans. Tim Urban puts things in a nice perspective. Imagine a guy in the year 1700 who walks into a portal and wakes up in today's Tokyo. He comes from a world where there's no electricity. Where long distance communication means hay-feeding your horse to the nearest height, lighting a fire and praying that the other end understands something out of the smoke pattern. And the next day he wakes up in a place where huge aluminum tubes hover on tracks, everyone looks at a magic light-emitting rectangle with a shiny apple engraved on the back, and there are five-story high billboards broadcasting video coming from the other side of the planet. He would probably die in shock before you even told him how two decades before that, we went to the moon in a rocket and now we're planning to colonize Mars, wouldn't he?  Now, bear with me a little more.
 
-![Ex Machina](/images/posts/ex-machina.jpg)
+![Ex Machina](/assets/images/posts/ex-machina.jpg)
 
 You see, here's when things start to get interesting. Imagine if that guy didn't actually die in shock but walked back to year 1700 through the portal again, and then really liked how we made fun of his reaction and decided to do the same thing with one of his ancestors. He would find a portal to go back in the same distance in time, grab someone from year 1400 and bring him to year 1700. The 1400 dude would definitely learn a few new things about our solar system and a few new physics formulas but he wouldn't be that amazed of how transportation and long-distance communication in year 1700 really differ from things back in his day. He'd surely not die for that matter. So, for the "year 1700" guy to have at least as much fun as we had we with him, he'd need to tweak his portal to go back to year 10.000BC or something and find someone who didn't live trough the First Agricultural Revolution and how it thrusted the human race to the pivotal point of cities and organized civilization. He would need to find the B.C nomad-hunter, living his life in the fields who then, yes, most probably die if he saw the grandiose medieval churches. The crusaders, the ocean-travelling ships, the ball-firing canons and how people now live in structures made of mud and stone instead of having to wander the endless forests would be just too much to digest. He would die.
 

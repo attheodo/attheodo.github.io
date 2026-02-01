@@ -1,10 +1,12 @@
+title: "Thanos Theodoridis"
 name: "Thanos Theodoridis"
 description: "My personal website"
 
 url: http://www.attheo.do
+baseurl: ""
 
 paginate: 10
 
 markdown: kramdown
 permalink: pretty
-highligther: pygments
+highlighter: pygments

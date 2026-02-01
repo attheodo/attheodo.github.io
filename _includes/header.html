@@ -1,21 +1,57 @@
-<div class="container">
-  <div class="header clearfix">
-    <nav>
-      <a class="navbar-brand" href="/">
-        <img alt="Thanos Theodoridis" src="/images/logo.png">
-      </a>
-      <ul class="nav navbar-nav pull-right links">
-        <li class="navbar-link"><a
-          href="/"
-          class="{% if page.path contains 'index'%}active{% endif %}">HOME</a></li>
-        <li class="navbar-link"><a
-          href="/about/"
-          class="{% if page.path contains 'about'%}active{% endif %}">ABOUT</a></li>
-        <li class="navbar-link"><a
-          href="/blog/"
-          class="{% if page.path contains 'blog' or page.active == "blog" %}active{% endif %}">BLOG</a></li>
-      </ul>
-    </nav>
-
+<header class="py-12">
+  {% assign active = page.active | default: "" %}
+  {% if active == "" and page.layout == "post" %}
+    {% assign active = "blog" %}
+  {% elsif active == "" and page.layout == "blog" %}
+    {% assign active = "blog" %}
+  {% elsif active == "" and page.layout == "about" %}
+    {% assign active = "about" %}
+  {% endif %}
+  {% if active == "" and page.url %}
+    {% if page.url == "/" %}
+      {% assign active = "about" %}
+    {% elsif page.url contains "/blog" %}
+      {% assign active = "blog" %}
+    {% elsif page.url contains "/about" %}
+      {% assign active = "about" %}
+    {% endif %}
+  {% endif %}
+  <div class="flex items-center justify-between">
+    <div class="flex gap-4 items-start">
+      <img
+        src="/assets/images/logo.svg"
+        class="h-12"
+        alt="" />
+      <div class="flex flex-col gap-1">
+        <div class="flex gap-1 items-center text-xl font-extrabold">
+          <span>thanos</span>
+          <span class="text-brand-500">·</span>
+          <span>theodoridis</span>
+        </div>
+        <nav aria-label="Primary">
+          <ul class="flex gap-4 text-sm">
+            <li class="border-r border-brand-500 border-dotted pr-4 text-sm">
+              <a
+                href="/"
+                class="nav-link{% if active == 'about' %} nav-link-active{% endif %}"
+                {% if active == "about" %}aria-current="page"{% endif %}
+              >
+                About
+              </a>
+            </li>
+            <li class="text-sm">
+              <a
+                href="/blog/"
+                class="nav-link{% if active == 'blog' %} nav-link-active{% endif %}"
+                {% if active == "blog" %}aria-current="page"{% endif %}
+              >
+                Writing
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <i class="ti ti-moon text-brand-500 text-xl"></i>
   </div>
-</div>
+</header>

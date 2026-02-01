@@ -1,8 +1,6 @@
 ---
 layout: post
-post_image: janitor1.jpg
 title: Don't be the CEO, be the Caretaker
-facebook_image: janitor.jpg
 ---
 
 I used to walk to my high-school every day during spring time. I was lucky enough to be in walking distance from my daily go-to obligation. And I very profoundly remember my high school caretaker. Let's call him Joe. Some might call him the doorkeeper, or the janitor. For me, the most appropriate title is Joe, the "caretaker". I will explain why.
@@ -31,4 +29,4 @@ Which brings us to my point. When you are in charge of a company, you're mostly 
 
 So don't hurry to be a CEO, strive to be the caretaker.
 
-*Many thanks to [@hsoc](https://twitter.com/hsoc), [@kbariotis](https://twitter.com/kbariotis), [@modkaffes](https://twitter.com/modkaffes), [@_margaritis](https://twitter.com/_margaritis) for taking the time to suggest edits to this article*
+*Many thanks to [@hsoc](https://x.com/hsoc), [@kbariotis](https://x.com/kbariotis), [@modkaffes](https://x.com/modkaffes), [@_margaritis](https://x.com/_margaritis) for taking the time to suggest edits to this article*
