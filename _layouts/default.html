@@ -3,14 +3,25 @@
 
 {% include head.html %}
 
-  <body class="page-{{ page.layout | default: 'default' }} bg-snow-50 max-w-2xl mx-auto font-menlo px-4 md:px-0">
+  <body class="page-{{ page.layout | default: 'default' }} bg-snow-50 dark:bg-gray-700 max-w-2xl mx-auto font-menlo px-4 md:px-0">
     {% include header.html %}
 
     <main id="main-content" role="main">
-      {{ content }}
-    </main>
+{{ content }}
+</main>
 
-    {% include footer.html %}
+{% include footer.html %}
 
-  </body>
+<script>
+  (function () {
+    var toggle = document.getElementById("theme-toggle");
+    if (!toggle) return;
+    toggle.addEventListener("click", function () {
+      var isDark = document.documentElement.classList.toggle("dark");
+      localStorage.setItem("theme", isDark ? "dark" : "light");
+    });
+  })();
+</script>
+
+</body>
 </html>

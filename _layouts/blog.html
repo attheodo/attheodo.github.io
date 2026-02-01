@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h1 class="flex gap-2 text-2xl font-extrabold text-gray-500">
-  <span class="text-brand-500">#</span><span>Writing</span>
+  <span class="text-brand-500">#</span><span class="dark:text-gray-300">Writing</span>
 </h1>
 
 {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date:
