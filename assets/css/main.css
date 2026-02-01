@@ -1405,6 +1405,11 @@ video {
   color: rgb(28 5 8 / var(--tw-text-opacity, 1));
 }
 
+.text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity, 1));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -1426,6 +1431,11 @@ video {
 .hover\:text-gray-500:hover {
   --tw-text-opacity: 1;
   color: rgb(28 5 8 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-brand-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(231 55 78 / var(--tw-text-opacity, 1));
 }
 
 .group:hover .group-hover\:opacity-0 {
