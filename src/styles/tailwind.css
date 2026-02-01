@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+  .nav-link {
+    @apply text-sm text-gray-400 transition;
+    @apply hover:text-brand-500 hover:underline underline-offset-4;
+    @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500/25 focus-visible:ring-offset-2;
+  }
+
+  .nav-link-active {
+    @apply text-brand-500;
+  }
+
+  .link {
+    @apply text-brand-500 hover:underline underline-offset-4;
+  }
+  .blog-link {
+    @apply text-sm text-gray-400 transition;
+    @apply hover:text-brand-500 hover:underline underline-offset-4;
+    @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500/25 focus-visible:ring-offset-2;
+  }
+}
