@@ -1,8 +1,6 @@
 ---
 layout: post
-post_image: staleOil.jpg
 title: Your Old, Stale Oil Needs Changing Because Graduation Is Not the End but the Beginning
-facebook_image: staleOil_1.jpg
 ---
 Your car dealer just handed you the keys to your new car. Right before he waves you goodbye he reminds you once again: "Every 5.000Km remember to come by and have your engine oil changed". Disregard that crucial piece of advice and your engine wears well before its advertised useful life. Timely oil changes ensure a smooth, efficient ride; dirty oil makes your car's engine rough. And rough rides always stall at the worst time.
 
@@ -12,7 +10,7 @@ At first I meant to write this post to address just developers. Then I thought i
 
 You see, unfortunately most people have this false notion that education stops after graduation. The hurtful truth is that graduating is not the end, it's the beginning. And at some point you need to address the elephant in the room; *what you know today is not enough to get you where you need to be tomorrow.* You must continuously reinvent yourself - change your stale oil - in the form of new knowledge acquisition. Your most effective years as an adult, both in terms to what you contribute to the economy and what you make out of it, happen long after your graduate. Don't you think it makes sense to prolong your educational process long after you've finished formal schooling?  
 
-![Our Education System](/images/posts/staleOil_1.jpg)
+![Our Education System](/assets/images/posts/staleOil_1.jpg)
 
 If changing your car's oil means leaving your car to the shop for weeks or years, you're doing it wrong. Constantly educating yourself must not come in the form of the new three-year-long degrees or pricey training seminars that set you back financially. You need to make your own curriculum. Pick the stuff that you think matter most, treat your professional environment as your training pit and put them to work. Asking any successful entrepreneur will yield the same answer: You learn by friction. Engaging in stuff. Doing. Making mistakes and learning from them.
 
@@ -58,7 +56,7 @@ There you go, now you know. But I know you have one more excuse. Apparently you 
 - Want to mown the lawn or paint a wall? Don't do it, pay someone to do it for you. You should be spending your time wisely. Instead find some material to study.
 - Have homework to do? Sit by the TV and watch a documentary while you do it. Or even Bear Grylls, he knows lots of useful stuff.
 
-![No Time](/images/posts/staleOil_2.jpeg)
+![No Time](/assets/images/posts/staleOil_2.jpeg)
 
 All you need is one hour every once in a few days. Using some of the hacks mentioned before you can definitely make up an hour. So yeah, you do have time.
 

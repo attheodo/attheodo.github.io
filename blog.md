@@ -1,5 +1,7 @@
 ---
 layout: blog
 permalink: /blog/
-quote: The things that we love tell us what we are.
+title: Writing - Thanos Theodoridis
+description: Essays and notes on life, product and design.
+active: blog
 ---

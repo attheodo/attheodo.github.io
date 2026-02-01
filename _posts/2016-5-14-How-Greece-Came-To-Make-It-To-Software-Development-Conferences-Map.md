@@ -1,11 +1,9 @@
 ---
 layout: post
-post_image: devit.jpg
 title: How Greece Has Come To Finally Make It To The Software Development Conferences Map
-facebook_image: devit1.jpg
 ---
 
-My buddy [Patroklos Papapetrou](http://twitter.com/@softwaregarden) couldn't cut it to the chase any better; [Greece has finally made it to the software development conferences map.](https://www.linkedin.com/pulse/greece-made-finally-software-development-conferences-patroklos)
+My buddy [Patroklos Papapetrou](http://x.com/@softwaregarden) couldn't cut it to the chase any better; [Greece has finally made it to the software development conferences map.](https://www.linkedin.com/pulse/greece-made-finally-software-development-conferences-patroklos)
 
 In the next months, at least six big conferences are about to take place in various big cities of Greece. And how we came to this is not an event but rather a process.
 
@@ -25,8 +23,7 @@ Finally, and frankly quite interestingly, we have the local businesses. Organiza
 
 So, in terms of how I see it, that's the story or the process that got us here. In a timespan of five years we've gone from ten member local meet-ups to international events with hundreds of people. Excitingly, the process is constantly hitting milestones along the roadmap and continuously evolving.
 
-#### The process is still ongoing. It's going forward. We are all going forward.
-<br>
+### The process is still ongoing. It's going forward. We are all going forward.
 As a bonus, here are X reasons to attend at least one of the conferences taking place in Greece:
 
 - **It's affordable**
