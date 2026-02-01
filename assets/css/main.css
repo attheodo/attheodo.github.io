@@ -1405,9 +1405,9 @@ video {
   color: rgb(28 5 8 / var(--tw-text-opacity, 1));
 }
 
-.text-gray-600 {
+.text-gray-200 {
   --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity, 1));
+  color: rgb(229 231 235 / var(--tw-text-opacity, 1));
 }
 
 .underline {
@@ -1431,6 +1431,11 @@ video {
 .hover\:text-gray-500:hover {
   --tw-text-opacity: 1;
   color: rgb(28 5 8 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-brand-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(231 55 78 / var(--tw-text-opacity, 1));
 }
 
 .group:hover .group-hover\:opacity-0 {
@@ -1464,27 +1469,12 @@ video {
   background-color: rgb(20 20 20 / var(--tw-bg-opacity, 1));
 }
 
-.dark\:text-white:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.dark\:text-gray-100:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity, 1));
-}
-
-.dark\:text-gray-200:is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity, 1));
-}
-
-.dark\:text-gray-300:is(.dark *) {
+.dark\:dark\:text-gray-300:is(.dark *):is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(159 159 159 / var(--tw-text-opacity, 1));
 }
 
-.dark\:dark\:text-gray-300:is(.dark *):is(.dark *) {
+.dark\:text-gray-300:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(159 159 159 / var(--tw-text-opacity, 1));
 }
@@ -1494,24 +1484,14 @@ video {
   color: rgb(97 97 97 / var(--tw-text-opacity, 1));
 }
 
-.dark\:prose-headings\:text-gray-300 :is(:where(h1, h2, h3, h4, h5, h6, th):not(:where([class~="not-prose"],[class~="not-prose"] *))):is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(159 159 159 / var(--tw-text-opacity, 1));
-}
-
-.dark\:prose-a\:text-white :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *))):is(.dark *) {
+.dark\:text-white:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.dark\:prose-a\:text-gray-100 :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *))):is(.dark *) {
+.dark\:prose-headings\:text-gray-300 :is(:where(h1, h2, h3, h4, h5, h6, th):not(:where([class~="not-prose"],[class~="not-prose"] *))):is(.dark *) {
   --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity, 1));
-}
-
-.dark\:prose-a\:text-gray-200 :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *))):is(.dark *) {
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity, 1));
+  color: rgb(159 159 159 / var(--tw-text-opacity, 1));
 }
 
 .dark\:prose-a\:text-gray-300 :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *))):is(.dark *) {
