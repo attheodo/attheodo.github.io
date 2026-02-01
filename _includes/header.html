@@ -24,9 +24,9 @@
         alt="" />
       <div class="flex flex-col gap-1">
         <div class="flex gap-1 items-center text-xl font-extrabold">
-          <span>thanos</span>
+          <span class="text-gray-500 dark:text-white">thanos</span>
           <span class="text-brand-500">·</span>
-          <span>theodoridis</span>
+          <span class="text-gray-500 dark:text-white">theodoridis</span>
         </div>
         <nav aria-label="Primary">
           <ul class="flex gap-4 text-sm">
@@ -52,6 +52,14 @@
         </nav>
       </div>
     </div>
-    <i class="ti ti-moon text-brand-500 text-xl"></i>
+    <button
+      id="theme-toggle"
+      class="inline-flex items-center justify-center rounded-md p-2 text-brand-500 transition hover:text-gray-500"
+      type="button"
+      aria-label="Toggle dark mode"
+    >
+      <i class="ti ti-moon text-xl dark:hidden"></i>
+      <i class="ti ti-sun text-xl hidden dark:inline"></i>
+    </button>
   </div>
 </header>
