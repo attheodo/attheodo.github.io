@@ -1,2 +1,9 @@
 _site
+.jekyll-metadata
+.jekyll-cache/
+.bundle/
+.sass-cache/
+node_modules/
+npm-debug.log*
 .idea/
+.DS_Store
